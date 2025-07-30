@@ -4,13 +4,38 @@
         <title>
             YouTube.com Clone
         </title>
-        <link rel = "stylesheet" href="youtube.css">
+        <link rel = "stylesheet" href="general.css">
+        <link rel = "stylesheet" href="videos.css">
+        <link rel = "stylesheet" href="header.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <input class = "search-box" type="text" placeholder="Search">
+        <div class="header">
+            <div class="left-section">
+                <img class = "hamgurger-menu" src="icons/hamb.png">
+                <img class = "youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">
+            </div>
+            <div class="mid-section">
+                <input class = "search-box" type="text" placeholder="Search">
+                <button class = "search-icon">
+                    <img src="icons/search.png">
+                </button>
+                <button class= "mic-icon" >
+                    <img src="icons/mic.png">
+                </button>
+            </div>
+            <div class="right-section">
+                <button class = "create-button">+ Create</button>
+                <button class = "not-icon">
+                    <img src="icons/notification.png">
+                </button>
+                <button class = "profile-pic">
+                    <img src="https://yt3.ggpht.com/Iz6cqPIQgYW7RsmP7JiPRrZPaY9Ui2KTXBvNAx4WbPJySD8q7Nfw_g6gfGYUH0A4FPJIe8TSAq4=s88-c-k-c0x00ffffff-no-rj">
+                </button>
+            </div>
+        </div>
 
 
         <div class = "video-grid">
